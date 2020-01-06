@@ -18,6 +18,10 @@ _global_script_class_icons={
 config/name="Godot Party Games"
 config/icon="res://icon.png"
 
+[autoload]
+
+Network="*res://scripts/network/Network.gd"
+
 [rendering]
 
 quality/driver/driver_name="GLES2"
